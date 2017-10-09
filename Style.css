@@ -1,0 +1,162 @@
+body {
+  background-color: #293133;
+  font-family: montserrat;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgba(53,61,63,0.9);
+  height: 3.75em;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.1em;
+}
+
+li a:hover {
+  background-color: white;
+  color: #293133;
+}
+
+li.active {
+  border-style: solid;
+  border-color: #293133;
+  border-width: 0;
+  border-bottom-width: 0.2em;
+  border-bottom-color: lightblue;
+}
+
+.home > img {
+	
+}
+
+header {
+  background-color: #293133;
+  color: white;
+  height: 40em;
+  text-align: center;
+  padding-top: 6em;
+}
+
+.innerhome {
+  margin-top: 10em;
+}
+
+.innergamedesign {
+  margin-top: 20em;
+}
+
+.innercontact {
+  margin-top: 20em;
+}
+
+article {
+  margin-top: 6em;
+  padding-top: 25.5em;
+  padding-bottom: 25.5em;
+}
+
+.intro {
+  background-image: url("WP_Encrusted_VIII-2560x1440_00000.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  padding-left: 2em;
+}
+
+.study {
+  background-image: url("1fbdaa34766315.573c5b9d27fef.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  padding-left: 2em;
+}
+
+.form {
+  background-image: url("WP_Hydrometry_I-2560x1440_00000.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  padding-left: 2em;
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+  padding-left: 1em;
+  background-color: rgba(0,0,0,0.6)
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 4em;
+  width: 4em;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #293133;
+  height: 6em;
+  margin-top: 13em;
+}
+
+input[type=text], select,textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  display: block;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  padding: 20px;
+}
